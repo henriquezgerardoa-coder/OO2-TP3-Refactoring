@@ -1,0 +1,48 @@
+/*C11*/SET SCHEMA PUBLIC
+DROP SCHEMA PUBLIC CASCADE
+CREATE TABLE persona (id_persona INT NOT NULL primary key generated always as identity (start with 1,increment by 1), nombre VARCHAR(255), apellido VARCHAR(255))
+INSERT INTO PERSONA VALUES(1,'Jos\u00e9','Laurenti')
+INSERT INTO PERSONA VALUES(2,'Esteban','Otermon')
+INSERT INTO PERSONA VALUES(3,'Vladimir','Varkov')
+COMMIT
+DISCONNECT
+/*C12*/SET SCHEMA PUBLIC
+DROP SCHEMA PUBLIC CASCADE
+CREATE TABLE persona (id_persona INT NOT NULL primary key generated always as identity (start with 1,increment by 1), nombre VARCHAR(255), apellido VARCHAR(255))
+INSERT INTO PERSONA VALUES(1,'Jos\u00e9','Laurenti')
+INSERT INTO PERSONA VALUES(2,'Esteban','Otermon')
+INSERT INTO PERSONA VALUES(3,'Vladimir','Varkov')
+COMMIT
+DISCONNECT
+/*C13*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C14*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C15*/SET SCHEMA PUBLIC
+DROP SCHEMA PUBLIC CASCADE
+CREATE TABLE persona (id_persona INT NOT NULL primary key generated always as identity (start with 1,increment by 1), nombre VARCHAR(255), apellido VARCHAR(255))
+INSERT INTO PERSONA VALUES(1,'Jos\u00e9','Laurenti')
+INSERT INTO PERSONA VALUES(2,'Esteban','Otermon')
+INSERT INTO PERSONA VALUES(3,'Vladimir','Varkov')
+COMMIT
+DISCONNECT
+/*C16*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C17*/SET SCHEMA PUBLIC
+DROP SCHEMA PUBLIC CASCADE
+CREATE TABLE persona (id_persona INT NOT NULL primary key generated always as identity (start with 1,increment by 1), nombre VARCHAR(255), apellido VARCHAR(255))
+INSERT INTO PERSONA VALUES(1,'Jos\u00e9','Laurenti')
+INSERT INTO PERSONA VALUES(2,'Esteban','Otermon')
+INSERT INTO PERSONA VALUES(3,'Vladimir','Varkov')
+COMMIT
+DISCONNECT
+/*C18*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C19*/SET SCHEMA PUBLIC
+DROP SCHEMA PUBLIC CASCADE
+CREATE TABLE persona (id_persona INT NOT NULL primary key generated always as identity (start with 1,increment by 1), nombre VARCHAR(255), apellido VARCHAR(255))
+INSERT INTO PERSONA VALUES(1,'Jos\u00e9','Laurenti')
+INSERT INTO PERSONA VALUES(2,'Esteban','Otermon')
+INSERT INTO PERSONA VALUES(3,'Vladimir','Varkov')
+COMMIT
+DISCONNECT
